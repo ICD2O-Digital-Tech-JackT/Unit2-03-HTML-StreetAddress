@@ -1,4 +1,11 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
-* This file contains the CSS for index.html
-*/
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #ffd35c;
+}
+p {
+  font-family: Monospace;
+  font-size: 30px;
+  font-weight: 800;
+  color:#85580a;
+}

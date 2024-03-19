@@ -1,5 +1,5 @@
-// Copyright (c) 2020 Mr. Coxall All rights reserved
-//
-// Created by: Mr. Coxall
-// Created on: Sep 2020
-// This file contains the JS functions for index.html
+function SubmitNameAndAge(){
+  let Name = document.getElementById("Name").value
+  let Age = document.getElementById("Age").value
+  document.getElementById("UserNameAndAge").innerHTML ="Your name is "+Name+" and you are "+Age+" years old."
+}
